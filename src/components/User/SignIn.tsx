@@ -1,7 +1,9 @@
+import { BackwardFilled } from "@ant-design/icons";
 import { useMutation } from "@tanstack/react-query";
 import { Button, Form, Input, message } from "antd";
 import type { FormProps } from "antd";
 import axios from "axios";
+import { Link } from "react-router-dom";
 type FieldType = {
   email?: string;
   password?: string;
@@ -25,6 +27,13 @@ const SignIn = () => {
   return (
     <div>
       {contextHolder}
+      <div>
+        <Link to={`/`}>
+        <Button>
+          <BackwardFilled/>Back
+        </Button>
+        </Link>
+      </div>
       <Form
         name="basic"
         labelCol={{ span: 8 }}
