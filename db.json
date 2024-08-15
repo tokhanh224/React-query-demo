@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": 7,
+      "name": "Product 7",
+      "price": 12.99,
+      "image": "https://picsum.photos/id/16/300/300",
+      "description": "This is product 7",
+      "discount": 0,
+      "quantity": 50,
+      "featured": true,
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "price": 17.99,
+      "image": "https://picsum.photos/id/17/300/300",
+      "description": "This is product 8",
+      "discount": 0.1,
+      "quantity": 80,
+      "featured": true,
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "name": "Product 9",
+      "price": 6.99,
+      "image": "https://picsum.photos/id/18/300/300",
+      "description": "This is product 9",
+      "discount": 0,
+      "quantity": 120,
+      "featured": false,
+      "categoryId": 1
+    },
+    {
+      "id": 10,
+      "name": "Product 10",
+      "price": 11.99,
+      "image": "https://picsum.photos/id/19/300/300",
+      "description": "This is product 10",
+      "discount": 0.25,
+      "quantity": 90,
+      "featured": true,
+      "categoryId": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Danh mục 1"
+    },
+    {
+      "id": 2,
+      "name": "Danh mục 2"
+    }
+  ],
+  "users": [
+    {
+      "email": "ddddddddddddddddddddddddd@gmail.com",
+      "password": "$2a$10$CXxMFNnhn4F/qFvc/YP9leRFumZc2zsxoxmIzDHCFahFiGbZvzuSK",
+      "id": 1
+    }
+  ]
+}
